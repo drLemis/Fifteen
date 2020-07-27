@@ -6,9 +6,6 @@ using DG.Tweening;
 
 public class FieldDrag : MonoBehaviour
 {
-	// FieldHole.OnPointerDown() -> FieldBoosters.CheckBoosters() -> FieldDrag.ProcessPoint() ->
-	// FieldDrag.ValidateLine() -> FieldDrag.DropField() -> FieldHole.DropPositions()
-
 	public FieldHole currentEmpty;
 
 	public bool isTweening = false;
